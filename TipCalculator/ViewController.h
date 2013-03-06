@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UISegmentedControl *segmentedControl;
+@property (weak, nonatomic) IBOutlet UITextField *billTextField;
+@property (weak, nonatomic) IBOutlet UILabel *tipLabel;
+- (IBAction)calculateTapped:(id)sender;
 
 @end
